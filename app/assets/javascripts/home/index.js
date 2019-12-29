@@ -42,7 +42,7 @@ $(document).on('turbolinks:load', function(){
       }else if(text === "検索"){
         getSearch();
       }
-      else{content.textContent = text};
+      else{content.textContent = text}; 
   
   
   } );
