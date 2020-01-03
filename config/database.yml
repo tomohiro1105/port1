@@ -49,6 +49,8 @@ test:
 #
 production:
   <<: *default
-  database: port1_production
+  database: postgresql
+  encoding: unicode
+  pool: 5
   username: port1
   password: <%= ENV['PORT1_DATABASE_PASSWORD'] %>
