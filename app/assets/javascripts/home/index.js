@@ -33,7 +33,7 @@ $(document).on('turbolinks:load', function(){
   
   
     var text = e.results[0][0].transcript;
-    console,log(e.results)
+    console.log(e.results)
   
       // 認識された「言葉(text)」を、表示用のdivタグに代入する
       content.textContent = text;
